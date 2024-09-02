@@ -7,8 +7,5 @@
     "start": "node index.js"
   },  
   "author": "Željko Ostojić",
-  "license": "MIT",
-  "dependencies": {
-    // dependencies here
-  }
+  "license": "MIT"
 }
