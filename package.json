@@ -1,0 +1,14 @@
+{
+  "name": "basketball-tournament-task",
+  "version": "1.0.0",
+  "description": "Napisati JavaScript za simulaciju košarkaškog turnira na Olimpijskim igrama. JavaScript node v20.17.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },  
+  "author": "Željko Ostojić",
+  "license": "MIT",
+  "dependencies": {
+    // dependencies here
+  }
+}

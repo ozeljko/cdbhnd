@@ -1,0 +1,6 @@
+Get Node.js version 20.17.0
+In Terminal go to directorium and :
+
+npm init -y
+
+node index.js
