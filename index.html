@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="rs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Košarkaški turnir</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center mb-4">
+            <h1 class="display-4 text-uppercase font-weight-bold">Košarkaški turnir</h1>
+            <p class="lead">Simulacija turnira</p>
+        </div>
+        <div class="col-12 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <div id="group-phase" class="phase mb-5">
+                        <h2 class="text-primary">Grupna faza</h2>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Tim</th>
+                                    <th scope="col">Pobednik</th>                                 
+                                </tr>
+                            </thead>
+                            <tbody id="group-results">
+                                <!--  -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <div id="elimination-phase" class="phase">
+                        <h2 class="text-primary">Eliminacija</h2>
+                        <div id="quarter-finals" class="round mb-4">
+                            <h3 class="text-secondary">Četvrt-finale</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tim 1</th>
+                                        <th scope="col">Tim 2</th>
+                                        <th scope="col">Rezultat</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="quarter-finals-results">
+                                    <!-- -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="semi-finals" class="round mb-4">
+                            <h3 class="text-secondary">Polu-finale</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tim 1</th>
+                                        <th scope="col">Tim 2</th>
+                                        <th scope="col">Rezultat</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="semi-finals-results">
+                                    <!--  -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="bronze-match" class="round mb-4">
+                            <h3 class="text-secondary">Bronza</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tim 1</th>
+                                        <th scope="col">Tim 2</th>
+                                        <th scope="col">Rezultat</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="bronze-match-result">
+                                    <!-- -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="finals-results" class="round">
+                            <h3 class="text-secondary">Finale</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tim 1</th>
+                                        <th scope="col">Tim 2</th>
+                                        <th scope="col">Rezultat</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="finals-results">
+                                    <!--  -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="gold-match" class="round">
+                            <h3 class="text-secondary">Zlato</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tim 1</th>
+                                        <th scope="col">Tim 2</th>
+                                        <th scope="col">Rezultat</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="gold-match-result">
+                                    <!--  -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="silver-match" class="round">
+                            <h3 class="text-secondary">Srebro</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tim 1</th>
+                                        <th scope="col">Tim 2</th>
+                                        <th scope="col">Rezultat</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="silver-match-result">
+                                    <!--  -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

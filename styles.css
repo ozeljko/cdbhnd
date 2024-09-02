@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.phase {
+    margin-bottom: 20px;
+}
+
+.round {
+    margin-bottom: 20px;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+	margin: 5px 0;
+}
+
+.match:last-child {
+    border-bottom: none;
+}
+
+.match .team {
+    flex: 1;
+    text-align: center;
+}
+
+.match .winner {
+    font-weight: bold;
+    color: #4CAF50;
+}
+h1 {
+    color: #343a40;
+}
+
+h2 {
+    color: #007bff;
+}
+
+h3 {
+    color: #6c757d;
+}
+
+/* Card styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Table styles */
+.table {
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Phase styles */
+.phase {
+    margin-bottom: 2rem;
+}
+
+.round {
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+	
+}
+.team {
+    font-weight: bold;

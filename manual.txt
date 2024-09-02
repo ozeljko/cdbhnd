@@ -1,0 +1,6 @@
+in project folder 
+npm install -g http-server
+http-server
+
+go to local address and port in browser
+crtl-shift-I to console
